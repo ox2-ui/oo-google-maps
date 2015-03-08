@@ -1,5 +1,4 @@
 template(name="ooGoogleMaps")
-  .oo-GoogleMaps(id="{{mapId}}")
   .oo-GoogleMaps--controls
-    a(href="http://maps.google.com/?q={{lat}},{{lng}}" target='_blank')
-      button(btn="tiny critical push-all") Open in Google Maps
+    button.js-OpenGoogleMap(btn="tiny critical push-all") Open in Google Maps
+  .oo-GoogleMaps(id="{{mapId}}")
