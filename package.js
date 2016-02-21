@@ -1,7 +1,7 @@
 Package.describe({
   name: 'ox2:google-maps',
   summary: 'TESTING_DO_NOT_USE Google Maps Components',
-  version: '1.1.0',
+  version: '1.2.0',
   git: ' /* Fill me in! */ '
 });
 
@@ -14,11 +14,12 @@ Package.onUse(function(api) {
   // Core
   api.use([
     'templating',
+    'less',
     'random'
     ]);
   // 3rd party
   api.use([
-    'lauricio:less-autoprefixer@2.5.0_3','mquandalle:jade@0.4.1'
+    'mquandalle:jade@0.4.9'
     ]);
   api.addFiles('lib/oo-google-maps.jade', C);
   api.addFiles('lib/oo-google-maps.less', C);
