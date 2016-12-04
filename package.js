@@ -1,7 +1,7 @@
 Package.describe({
   name: 'ox2:google-maps',
   summary: 'TESTING_DO_NOT_USE Google Maps Components',
-  version: '1.3.0',
+  version: '1.3.1',
   git: ' /* Fill me in! */ '
 });
 
