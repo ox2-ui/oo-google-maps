@@ -25,7 +25,7 @@ htmljs@1.0.9
 id-map@1.0.7
 jquery@1.11.8
 less@2.7.8
-local-test:ox2:google-maps@1.4.0
+local-test:ox2:google-maps@1.5.0
 logging@1.0.12
 meteor@1.6.0
 minifier-js@1.1.11
@@ -40,7 +40,7 @@ mquandalle:jade-compiler@0.4.5
 npm-mongo@1.4.43
 observe-sequence@1.0.11
 ordered-dict@1.0.7
-ox2:google-maps@1.4.0
+ox2:google-maps@1.5.0
 promise@0.8.8
 random@1.0.10
 reactive-var@1.0.9
